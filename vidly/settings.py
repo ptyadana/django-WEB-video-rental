@@ -26,7 +26,9 @@ SECRET_KEY = 'y4&n$3=*n$pe)f%-=06!g@0obp$h0w-@rk&a0vb5sv^m!fho&o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'vidly-movie-rental-by-ptyadana.herokuapp.com'
+]
 
 
 # Application definition
