@@ -4,7 +4,9 @@ Vidly Video Rental Application which displays the list of movie information, det
 
 + Python 3
 + Django 3
++ Tastypie for REST framework
 + bootstrap 4
+
 
 [Visit Vidly Video Rental App on heroku](https://vidly-movie-rental-by-ptyadana.herokuapp.com/)
 
