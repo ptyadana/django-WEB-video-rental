@@ -11,6 +11,7 @@
             </tr>
         </thead>
         <tbody>
+        {% csrf_token %}
         {% for movie in movies %}
             <tr>
                 <td><a href="{% url 'movies:detail' movie.id%}">{{movie.title}}</a></td>
